@@ -24,7 +24,7 @@
 %% @doc Specifies whether the software should be run in debug mode
 %% (excuting ifdef code blocks).
 %% WARNING: Only define debug during testing.
-%-define(DEBUG, debug).
+-define(DEBUG, debug).
 
 -ifdef(DEBUG).
 -define(FORK_1_6, 0).
